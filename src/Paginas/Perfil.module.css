@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  width: 280px;
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: rgb(30, 30, 30); 
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: #f1f1f1;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: "MonteCarlo", cursive;
+  color: rgb(213, 53, 53);
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
